@@ -19,7 +19,7 @@ To run this project:
 
 * Download and install IntelliJ IDEA (Recommends)
 
-* Install Docker and Docker Compose if you don't have your own database and message brokers
+* Install Docker and Docker Compose if you don't have your own database
 
 * Run git clone https://github.com/sogolhaghani/OntologyToolsTest.git
 
