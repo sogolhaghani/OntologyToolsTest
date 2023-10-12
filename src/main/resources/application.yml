@@ -1,0 +1,10 @@
+logging:
+  file:
+    path: ./log/OntologyToolsTest.log
+spring:
+  data:
+    mongodb:
+      host: mongodb
+      port: 27017
+      database: OntologyDB
+      authentication-database: admin

@@ -1,0 +1,14 @@
+services:
+  mongodb:
+    image: 'mongo:latest'
+    restart: always
+    hostname: mongo
+    ports:
+      - 27017:27017
+  ontologytoolstest:
+    build: .
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongodb
+version: "3.5"
